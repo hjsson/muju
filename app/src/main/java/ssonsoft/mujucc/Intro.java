@@ -17,7 +17,7 @@ public class Intro extends AppCompatActivity {
 
         setContentView(R.layout.intro); //전체화면 레이아웃 호출
 
-        //Handler x = new Handler();  //액티비티 핸들러 인트로 지연시간때문에
+        //Handler x = new Handler();  //액티비티 핸들러 인트로 지연시간때문에 추후작성
         x = new Handler();           //딜래이를 주기 위해 핸들러 생성
 
         if (MarketVersionCheck.isNetworkConnected(this)){   //인터넷 사용가능한지
