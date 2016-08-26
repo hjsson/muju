@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="ssonsoft.mujucc.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:text="향토 간행물"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b26"
+            android:layout_marginTop="@dimen/img_top"
+            android:layout_marginLeft="25dp"
+            android:clickable="true"
+            android:tag="26"
+            android:onClick="onClick"/>
+        <TextView
+            android:id="@+id/pdf_label"
+            android:layout_width="wrap_content"
+            android:text="15년반딧골문화23호"
+            android:textSize="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_below="@id/a1"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+    <RelativeLayout
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/img_top"
+        android:layout_toRightOf="@id/a1"
+        android:layout_marginLeft="25dp">
+        <ImageButton
+            android:id="@+id/a31"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/x00"
+            android:clickable="true"
+            android:tag="00"
+            android:onClick="onClick"/>
+        <TextView
+            android:id="@+id/pdf_label3"
+            android:layout_width="wrap_content"
+            android:text="미등록"
+            android:textSize="13dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/a31"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+   <!-- <ImageButton
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@id/a1"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:clickable="true"
+        android:tag="two2"
+        android:onClick="onClick"/>
+    <ImageButton
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@id/a2"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:clickable="true"
+        android:tag="two3"
+        android:onClick="onClick"/>-->
+
+</RelativeLayout>
