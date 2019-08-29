@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/x00"/>
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:ellipsize="end"
+            android:lines="3"
+            android:textColor="#ffffff"
+            android:text="Book Name" />
+        <TextView
+            android:id="@+id/mNum"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:text="num" />
+</LinearLayout>

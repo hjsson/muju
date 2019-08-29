@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ssonsoft.mujucc">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="무주 문화원 향토사료"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:label, android:icon">
         <activity
             android:name=".Intro"
-            android:label="@string/app_name"
+            android:label="무주 문화원 향토사료"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +22,19 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="무주 문화원 향토사료"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".BookView"
-            android:label="@string/app_name"
+            android:label="무주 문화원 향토사료"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation|screenSize"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
 </manifest>
